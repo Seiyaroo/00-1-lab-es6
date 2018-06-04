@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+So let is smaller scope than Var, and allows for better management of errors. Because its so narrow you can add stuff and keep it easier to understand where your errors are. Const allows you to keep things very straight forward. Things that wont change can have constant as long as they aren't incrementing, or decrementing, or changing. So I had to change let and const for my counters, so (const to let) to let them work in the whole of the program. I was able to do const on most other stuff labeled var, because those things were never changing. They were simply constant variables, thus const.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I definitely like template literals more. Its gonna take some getting used to but it was a lot of fun to see the difference. Also template is much easier to read compared to object literals.
